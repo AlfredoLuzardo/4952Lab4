@@ -6,7 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
   options.AddPolicy("ClientOrigins", policy =>
-    policy.WithOrigins("http://localhost:5075", "http://localhost:5197") // replace with your client URL(s)
+    policy.WithOrigins(
+        "http://localhost:5075", 
+        "http://localhost:5197",
+        "https://alfredoapp-abgzh4gjcvhxgfen.canadacentral-01.azurewebsites.net") // replace with your client URL(s)
           .AllowAnyHeader()
           .AllowAnyMethod()
           .AllowCredentials()
