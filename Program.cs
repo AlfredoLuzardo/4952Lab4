@@ -3,6 +3,16 @@ using ServerMCP.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(options =>
+{
+  options.AddPolicy("ClientOrigins", policy =>
+    policy.WithOrigins("http://localhost:5075", "https://<your-client-azure>.azurewebsites.net") // replace with your client URL(s)
+          .AllowAnyHeader()
+          .AllowAnyMethod()
+          .AllowCredentials()
+  );
+});
+
 builder.Services.AddMcpServer()
 .WithHttpTransport()
 .WithToolsFromAssembly();
@@ -15,6 +25,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 );
 
 var app = builder.Build();
+
+app.UseCors("ClientOrigins");
 
 // Add MCP Middleware
 app.MapMcp();
