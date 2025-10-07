@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ServerMCP/beverages.9hvo5n8sn4.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\beverages.csv'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9hvo5n8sn4"},{"Name":"integrity","Value":"sha256-o\u002Bk6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="},{"Name":"label","Value":"_content/ServerMCP/beverages.csv"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1750"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022o\u002Bk6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\u0022"},{"Name":"Last-Modified","Value":"Tue, 07 Oct 2025 04:05:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ServerMCP/beverages.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\beverages.csv'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o\u002Bk6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1750"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022o\u002Bk6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\u0022"},{"Name":"Last-Modified","Value":"Tue, 07 Oct 2025 04:05:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

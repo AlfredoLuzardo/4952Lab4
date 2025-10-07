@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "BC+VoBtPp6PtS0L7lJMWm7fykN/fDjQ1rxhbEZlymg0=",
+  "Source": "ServerMCP",
+  "BasePath": "_content/ServerMCP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ServerMCP\\wwwroot",
+      "Source": "ServerMCP",
+      "ContentRoot": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\",
+      "BasePath": "_content/ServerMCP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\obj\\Debug\\net9.0\\compressed\\z8ke2t3ctt-9hvo5n8sn4.gz",
+      "SourceId": "ServerMCP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ServerMCP",
+      "RelativePath": "beverages#[.{fingerprint=9hvo5n8sn4}]?.csv.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\beverages.csv",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fww0nkizps",
+      "Integrity": "cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\beverages.csv"
+    },
+    {
+      "Identity": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\beverages.csv",
+      "SourceId": "ServerMCP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\",
+      "BasePath": "_content/ServerMCP",
+      "RelativePath": "beverages#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9hvo5n8sn4",
+      "Integrity": "o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\beverages.csv"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "beverages.9hvo5n8sn4.csv",
+      "AssetFile": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\obj\\Debug\\net9.0\\compressed\\z8ke2t3ctt-9hvo5n8sn4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001193317422"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hvo5n8sn4"
+        },
+        {
+          "Name": "label",
+          "Value": "beverages.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.9hvo5n8sn4.csv",
+      "AssetFile": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\beverages.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hvo5n8sn4"
+        },
+        {
+          "Name": "label",
+          "Value": "beverages.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.9hvo5n8sn4.csv.gz",
+      "AssetFile": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\obj\\Debug\\net9.0\\compressed\\z8ke2t3ctt-9hvo5n8sn4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hvo5n8sn4"
+        },
+        {
+          "Name": "label",
+          "Value": "beverages.csv.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.csv",
+      "AssetFile": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\obj\\Debug\\net9.0\\compressed\\z8ke2t3ctt-9hvo5n8sn4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001193317422"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.csv",
+      "AssetFile": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\beverages.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.csv.gz",
+      "AssetFile": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\obj\\Debug\\net9.0\\compressed\\z8ke2t3ctt-9hvo5n8sn4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg="
+        }
+      ]
+    }
+  ]
+}

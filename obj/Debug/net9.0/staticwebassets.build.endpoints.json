@@ -1,0 +1,304 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "beverages.9hvo5n8sn4.csv",
+      "AssetFile": "beverages.csv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001193317422"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hvo5n8sn4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        },
+        {
+          "Name": "label",
+          "Value": "beverages.csv"
+        }
+      ]
+    },
+    {
+      "Route": "beverages.9hvo5n8sn4.csv",
+      "AssetFile": "beverages.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hvo5n8sn4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        },
+        {
+          "Name": "label",
+          "Value": "beverages.csv"
+        }
+      ]
+    },
+    {
+      "Route": "beverages.9hvo5n8sn4.csv.gz",
+      "AssetFile": "beverages.csv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9hvo5n8sn4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg="
+        },
+        {
+          "Name": "label",
+          "Value": "beverages.csv.gz"
+        }
+      ]
+    },
+    {
+      "Route": "beverages.csv",
+      "AssetFile": "beverages.csv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001193317422"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.csv",
+      "AssetFile": "beverages.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+k6Dzrb8Cju6dF8cOGsuIEihy/W6L9AbqutQKE2Qww="
+        }
+      ]
+    },
+    {
+      "Route": "beverages.csv.gz",
+      "AssetFile": "beverages.csv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Oct 2025 04:05:22 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTJS33Pbi1DeYpjzeH4BIwbDnGkoOvxa2VefwDtrKyg="
+        }
+      ]
+    }
+  ]
+}

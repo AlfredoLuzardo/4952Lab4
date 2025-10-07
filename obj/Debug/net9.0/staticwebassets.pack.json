@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\luzar\\Documents\\BCIT\\HCI\\Lab4HW\\AspMCP\\ServerMCP\\wwwroot\\beverages.csv",
+      "PackagePath": "staticwebassets\\beverages.csv"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ServerMCP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ServerMCP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ServerMCP.props",
+      "PackagePath": "build\\ServerMCP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ServerMCP.props",
+      "PackagePath": "buildMultiTargeting\\ServerMCP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ServerMCP.props",
+      "PackagePath": "buildTransitive\\ServerMCP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,34 @@
+BeverageId,Name,Type,MainIngredient,Origin,CaloriesPerServing
+1,Coca-Cola,Soft Drink,Sugar,United States,140
+2,Pepsi,Soft Drink,Sugar,United States,150
+3,Green Tea,Tea,Green Tea Leaves,China,0
+4,Espresso,Coffee,Coffee Beans,Italy,5
+5,Smoothie,Fruit Drink,Fruit,United States,250
+6,Pina Colada,Cocktail,Coconut Cream,Puerto Rico,245
+7,Lemonade,Soft Drink,Lemon,Ancient Egypt,120
+8,Milkshake,Dairy Drink,Milk,United States,350
+9,Chai,Tea,Black Tea Leaves and Spices,India,150
+10,Margarita,Cocktail,Tequila,Mexico,200
+11,Matcha Latte,Tea,Matcha Powder,Japan,200
+12,Sparkling Water,Water,Carbonated Water,Various,0
+13,Kombucha,Fermented Tea,Tea and Sugar,China,30
+14,Hot Chocolate,Hot Drink,Cocoa Beans,South America,200
+15,Red Wine,Alcoholic Drink,Grapes,Various,125
+16,Mojito,Cocktail,Rum,Cuba,150
+17,Ginger Ale,Soft Drink,Ginger,United States,120
+18,Black Coffee,Coffee,Coffee Beans,Ethiopia,5
+19,Chamomile Tea,Herbal Tea,Chamomile Flowers,Egypt,0
+20,Whiskey,Alcoholic Drink,Grain,Ireland/Scotland,100
+21,Coconut Water,Water,Coconut,Pacific Islands,60
+22,Root Beer,Soft Drink,Sarsaparilla Root,United States,160
+23,Iced Tea,Cold Tea,Black Tea Leaves,United States,90
+24,Latte,Coffee,Coffee and Milk,Italy,190
+25,Herbal Tea,Tea,Various Herbs,Worldwide,0
+26,Energy Drink,Soft Drink,Caffeine and Sugar,Worldwide,110
+27,Beer,Alcoholic Drink,Barley and Hops,Various,150
+28,Sangria,Alcoholic Drink,Red Wine and Fruit,Spain,180
+29,Probiotic Drink,Fermented Drink,Milk or Plant-Based,Worldwide,60
+30,Bubble Tea,Tea,Tea and Tapioca Pearls,Taiwan,200
+31,Cider,Alcoholic Drink,Apples,United Kingdom,210
+32,Tonic Water,Soft Drink,Quinine and Sugar,United Kingdom,130
+33,Decaf Coffee,Coffee,Coffee Beans (Decaffeinated),Worldwide,2
